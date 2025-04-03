@@ -22,7 +22,7 @@ El sitio web "Galerías Artesanales" es una página informativa que muestra una 
 
 - `index.html`: Página principal del sitio
 - `galeria.html`: Muestra la galería de productos artesanales
-- `contacto.html`: Página con información de contacto
+- `contacto.html`: Página con formulario de contacto
 
 ## Autor
 
