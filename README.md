@@ -4,9 +4,9 @@ Este proyecto es un ejercicio académico desarrollado para el curso "Taller de T
 
 ## Descripción
 
-El sitio web "Galerías Artesanales" es una página informativa que muestra una galería de productos artesanales. El proyecto implementa:
+El sitio web "Galería Clásica" es una página informativa que muestra una galería de arte. El proyecto implementa:
 
-- Diseño responsive utilizando Bootstrap 4
+- Diseño responsive utilizando Bootstrap
 - Navegación entre páginas (inicio, galería y contacto)
 - Integración de imágenes y contenido
 - Uso de componentes Bootstrap como navbar y grid system
@@ -26,4 +26,4 @@ El sitio web "Galerías Artesanales" es una página informativa que muestra una 
 
 ## Autor
 
-Desarrollado como ejercicio académico para IPSS - 2024
+Desarrollado como ejercicio académico para IPSS - 2025
