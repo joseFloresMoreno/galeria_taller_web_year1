@@ -1,4 +1,4 @@
-# Galerías Artesanales - Sitio Web
+# Galería Clásica - Sitio Web
 
 Este proyecto es un ejercicio académico desarrollado para el curso "Taller de Tecnologías Web" de la carrera de Ingeniería en Informática en el Instituto Profesional IPSS, Chile. Corresponde al primer año, primer semestre de la carrera.
 
