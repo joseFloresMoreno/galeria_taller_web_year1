@@ -1,0 +1,126 @@
+.bgcolor-nav{
+    background-color: #e3f2fd;
+}
+
+.titulos {
+    color: darkmagenta;
+}
+.cursiva {
+    font-style: italic;
+}
+
+.negrita-cursiva {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.nombre-galeria {
+    color: blueviolet;
+    font-weight: bold;
+}
+
+.img-galeria {
+    width: 100%;
+    height: auto;
+}
+
+.cover-container {
+    max-height: 42em;
+}
+
+.fondo-body-index {
+    background-image: url('../img/gran-ola.jpg'); 
+    background-size: cover; 
+    background-position: center;
+    position: relative;
+}
+
+.fondo-body-galeria {
+    background-image: url('../img/van_gogh.jpg'); 
+    background-size: cover; 
+    background-position: center;
+    position: relative;
+}
+
+.fondo-body-contacto {
+    background-image: url('../img/simbo.jpg'); 
+    background-size: cover; 
+    background-position: center;
+    position: relative;
+}
+
+.fondo-body-index::after,
+.fondo-body-galeria::after,
+.fondo-body-contacto::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: -9999;
+}
+
+
+.image-container {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.image-hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: calc(100% - 1.5rem);
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 0.375rem;
+}
+
+.image-container:hover .image-hover {
+    opacity: 1;
+}
+
+.transition-bg {
+    transition: background-color 0.3s ease-in-out;
+}
+
+.navbar.bg-dark {
+    background-color: rgba(33, 37, 41, 0.98) !important;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+main {
+    animation: fadeIn 1.5s ease-out;
+}
+
+/* Ocultar barra de desplazamiento para Chrome, Safari y Opera */
+::-webkit-scrollbar {
+    display: none;
+}
+
+/* Ocultar barra de desplazamiento para IE, Edge y Firefox */
+body {
+    -ms-overflow-style: none;  /* IE y Edge */
+    scrollbar-width: none;     /* Firefox */
+}
